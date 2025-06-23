@@ -21,6 +21,18 @@ Monkeytype? More like *Botkeytype*. 😎
 
 ---
 
+### ⚡ Performance Notes
+
+⌨️ **One key takes about ~100ms to be pressed — due to Java’s limitations, or the f\*ck I don’t know.**
+
+- Java’s `Robot` class is a bit… elderly  
+- Your OS might be adding secret delays  
+- Or maybe typing fast just isn’t “enterprise-friendly” enough
+
+🔥 **TL;DR:** Expect ~100 WPM. Want more? You’ll have to go native — Quartz (macOS), Win32 (Windows), or summon a keyboard demon from JNI.
+
+---
+
 ## 🖼️ Features
 
 - 🖱️ Click and drag to pick the text area
